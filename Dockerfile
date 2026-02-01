@@ -7,6 +7,4 @@ ENV ES_JAVA_OPTS="-Xms512m -Xmx512m"
 
 ENV ELASTIC_USERNAME=elastic
 # Set password for elastic user
-ENV ELASTIC_PASSWORD=myelasticpassword
-
 ENV XPACK.SECURITY.ENABLED=false
